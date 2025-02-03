@@ -6,11 +6,6 @@ body {
     flex-direction: column;
     min-height: 95vh;
   }
-  ul{
-    border: 3px solid;
-    border-radius: 23px;
-
-  }
   table{
     text-align: left;
     border: 3px dotted;
