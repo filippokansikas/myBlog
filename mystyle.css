@@ -1,0 +1,25 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+  ul{
+    border: 3px solid;
+    border-radius: 23px;
+
+  }
+  table{
+    text-align: left;
+    border: 3px dotted;
+  }
+
+  .div-description {
+    border: 3px dashed;
+  }
+  .video {
+    border: 3px dotted;
+    text-align: center;
+  }
