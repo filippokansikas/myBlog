@@ -18,3 +18,12 @@ body {
     border: 3px dotted;
     text-align: center;
   }
+  .home-feed {
+    background-color: rgb(174, 206, 175);
+    display: flex;
+    border-width: 20px;
+    margin: -50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } 
