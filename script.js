@@ -38,6 +38,8 @@ const getQuote = async () => {
 const newQuoteBtn = document.querySelector(".button-27")
 
 // rest of the code
+
  // fetching a quote on page load
 
 newQuoteBtn.addEventListener('click', getQuote); // attaching an event listener to the new quote button
+
