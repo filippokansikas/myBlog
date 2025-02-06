@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background-color: #dfdbe5;
+    
+    
+    /* rest of the CSS properties */
+}
+
+
+  .quote {
+    text-align: center;
+    font-style: italic;
+    color: var(--primary-color);
+  }
+  
+  .author {
+    color: var(--secondary-color);
+    font-size: 20px;
+  }
+  hr {
+    margin: 10px 0;
+    width: 60%;
+    border: 1px solid #364ba788;
+  }
+  .controls {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+ 
+  
+  .twitter-share-btn {
+    text-decoration: none;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+        

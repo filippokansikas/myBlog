@@ -1,4 +1,4 @@
-   
+
 function search_week() {
     let input = document.getElementById('searchbar').value
     input = input.toLowerCase();
@@ -13,3 +13,31 @@ function search_week() {
         }
     }
 } 
+const quoteEl = document.querySelector(".quote");
+const authorEl = document.querySelector(".author");
+
+const API_URL = 'https://api.quotable.io/random';
+
+const getQuote = async () => {
+  try {
+    const response = await fetch(API_URL);
+    const data = await response.json();
+
+    const quote = data.content;
+    const author = data.author || 'Unknown';
+
+    quoteEl.textContent = quote;
+    authorEl.textContent = author;
+  } catch (error) {
+    console.log(error);
+    quoteEl.textContent = 'Oops! Something went wrong.';
+    authorEl.textContent = '';
+  }
+}
+
+const newQuoteBtn = document.querySelector(".button-27")
+
+// rest of the code
+ // fetching a quote on page load
+
+newQuoteBtn.addEventListener('click', getQuote); // attaching an event listener to the new quote button
