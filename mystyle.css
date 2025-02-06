@@ -5,11 +5,11 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 95vh;
-    margin-bottom: 61px;
+    margin-bottom: 150px;
   }
   .div-description {
-    margin: 0 0 50px 0;
     display: flex;
+    
     text-align: left;
     gap:10px;
     padding: 20px;
@@ -17,7 +17,10 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-
+.filippoImage{
+  width: 200px;
+  height: 200px;
+}
 .fa {
   padding: 20px;
   font-size: 30px;
