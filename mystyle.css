@@ -259,24 +259,24 @@ hr {
   margin-top: 10px;
 }
 .container .coin-price{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 7px;
 }
 
 .container .coin-price .logo{
-  width: 70px;
-  margin-right: 10px;
+    width: 70px;
+    margin-right: 10px;
 }
 .container .coin-price .logo img{
-  width: 100%;
+    width: 100%;
 }
 .container .coin-price div{
-  display: block;
+    display: block;
 }
 .container .coin-price div h1{
-  font-size: 20px;
+    font-size: 20px;
 }
