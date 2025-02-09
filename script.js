@@ -16,14 +16,14 @@ function search_week() {
 const quoteEl = document.querySelector(".quote");
 const authorEl = document.querySelector(".author");
 
-const API_URL = 'https://api.quotable.io/random';
+const API_URL = "https://quoteslate.vercel.app/api/quotes/random";
 
 const getQuote = async () => {
   try {
     const response = await fetch(API_URL);
     const data = await response.json();
 
-    const quote = data.content;
+    const quote = data.quote || 'Unknown';
     const author = data.author || 'Unknown';
 
     quoteEl.textContent = quote;

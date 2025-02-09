@@ -8,10 +8,16 @@ body {
     margin-bottom: 200px;
     align-items: center;
   }
+  figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .div-description {
+    display: flex;
     text-align: left;
     gap:10px;
-    padding: 20px;
+    padding: 50px 200px 50px 200px;
     background-color: #f8f8f8;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -39,16 +45,16 @@ body {
 
 
 .fa-linkedin {
-  background: #007bb5;
+  background: #04151d;
   color: white;
 }
 .fa-github {
-  background: #333;
+  background: #04151d;
   color: white;
 }
 
 .fa-instagram {
-  background: #125688;
+  background: #04151d;
   color: white;
 }
 
