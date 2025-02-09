@@ -16,8 +16,10 @@ body {
   .div-description {
     display: flex;
     text-align: left;
+    flex-flow: column;
     gap:10px;
-    padding: 50px 200px 50px 200px;
+    margin: 50px 150px 50px 150px;
+    padding: 25px 25px 25px 25px;
     background-color: #f8f8f8;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -25,10 +27,14 @@ body {
 .filippoImage{
   width: 200px;
   height: 200px;
+  float: left;
+  margin:10px;
 }
 .lionImage{
   width: 200px;
   height: 200px;
+  float: left;
+  margin:10px;
 }
 .fa {
   padding: 20px;
