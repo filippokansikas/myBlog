@@ -149,7 +149,7 @@ table th {
   position: fixed;
   display: flex;
   flex-flow: column;
-  background-color: rgb(210, 230, 25);
+  background-color: rgb(31, 160, 51);
   margin:0 ;
   left: 0;
   bottom: 0;
@@ -211,7 +211,7 @@ ul {
       padding: 6px 0;
 
       a {
-          --fill-color: rgb(210, 230, 25);
+          --fill-color: rgb(31, 160, 51);
           position: relative;
           display: block;
           padding: 4px 0;
