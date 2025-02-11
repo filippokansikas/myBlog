@@ -1,8 +1,3 @@
-
-
-/* Please ❤ this if you like it! */
-
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
 
@@ -23,10 +18,10 @@ h1{
   font-weight: 800;
   font-size: 7vw;
   line-height: 1;
-  color: #ffeba7;
+  color: #ffffff;
   text-align: center;
-  -webkit-text-stroke: 2px #ffeba7;
-  text-stroke: 2px #ffeba7;
+  -webkit-text-stroke: 2px #fcfcfc;
+  text-stroke: 2px #fefefe;
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
   color: transparent;
@@ -254,11 +249,12 @@ h1{
 	display: block;
 	z-index: 11;
 	transition: all 250ms linear;
+  margin-bottom: 200px;
 }
 .logo img {
 	height: 75px;
+  margin-bottom: 50px;
 	width: auto;
-	display: block;
 }
 
 
