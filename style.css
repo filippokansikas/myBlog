@@ -5,21 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
-body{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-	font-size: 15px;
-	line-height: 1.7;
-	color: #ececee;
-	background-color: #1f2029;
-	overflow: hidden;
-    height: 100vh;
-    width: 100%;
-    background-image: url("images/myPictureLong.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+
 .section-center{
   position: absolute;
   top: 50%;
