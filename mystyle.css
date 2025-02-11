@@ -151,7 +151,7 @@ table th {
   position: fixed;
   display: flex;
   flex-flow: column;
-  background-color: rgb(251, 251, 251);
+  justify-content: center;
   margin:0 ;
   left: 0;
   bottom: 0;
