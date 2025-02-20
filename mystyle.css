@@ -18,13 +18,13 @@ body {
   }       
   .div-description {
     display: flex;
-    text-align: center;
+    text-align: left;
     flex-flow: column;
     gap:10px;
-    margin: 50px 150px 50px 150px;
     padding: 25px 25px 25px 25px;
     background-color: #f8f8f8;
     border-radius: 10px;
+    min-width: 80%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 .filippoImage{
